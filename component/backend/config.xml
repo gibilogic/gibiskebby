@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param type="text" name="skebby_username" label="COM_SKEBBY_PARAM_USERNAME" description="COM_SKEBBY_PARAM_USERNAME_DESC" default="" />
+		<param type="text" name="skebby_password" label="COM_SKEBBY_PARAM_PASSWORD" description="COM_SKEBBY_PARAM_PASSWORD_DESC" default="" />
+		<param type="text" name="skebby_number" label="COM_SKEBBY_PARAM_SENDER_NUMBER" description="COM_SKEBBY_PARAM_SENDER_NUMBER_DESC" default="" />
+		<param type="text" name="skebby_name" label="COM_SKEBBY_PARAM_SENDER_NAME" description="COM_SKEBBY_PARAM_SENDER_NAME_DESC" default="" />
+		<param type="radio" name="skebby_debug" label="COM_SKEBBY_PARAM_DEBUG" description="COM_SKEBBY_PARAM_DEBUG_DESC" default="0">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</param>
+		<param type="text" name="vm_phone_field" label="COM_SKEBBY_PARAM_PHONE_FIELD" description="COM_SKEBBY_PARAM_PHONE_FIELD_DESC" default="phone_1" />
+		<param type="text" name="vm_birthday_field" label="COM_SKEBBY_PARAM_BIRTHDAY_FIELD" description="COM_SKEBBY_PARAM_BIRTHDAY_FIELD_DESC" default="vm_datanascita" />
+		<param type="text" name="vm_allowsms_field" label="COM_SKEBBY_PARAM_ALLOWSMS_FIELD" description="COM_SKEBBY_PARAM_ALLOWSMS_FIELD_DESC" default="" />
+		<param type="text" name="vm_managed_status" label="COM_SKEBBY_PARAM_MANAGED_STATUS" description="COM_SKEBBY_PARAM_MANAGED_STATUS_DESC" default="P,C,X,R,S" />
+	</params>
+</config>

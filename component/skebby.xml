@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5" method="upgrade">
+	<name>Skebby</name>
+	<author>GiBiLogic</author>
+	<creationDate>2013-06-19</creationDate>
+	<license>GNU/GPL v2 or later</license>
+	<authorEmail>info@gibilogic.com</authorEmail>
+	<authorUrl>http://www.gibilogic.com</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[
+    <img src="http://extensions.gibilogic.com/images/gibilogicextensions-150x150.png" alt="" style="float: left;margin: 0 10px 10px 0" />
+    <h1>GiBi Skebby</h1>
+    <h2>A Joomla extension by <a href="http://www.gibilogic.com">GiBiLogic</a></h2>
+    <p>Discover other extensions by <strong>GiBiLogic</strong> at <a href="http://extensions.gibilogic.com">extensions.gibilogic.com</a></p>
+  ]]></description>
+
+	<administration>
+		<menu>COM_SKEBBY</menu>
+		<files folder="backend">
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<file>config.xml</file>
+			<file>skebby.php</file>
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.com_skebby.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_skebby.menu.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_skebby.sys.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_skebby.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_skebby.menu.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_skebby.sys.ini</language>
+		</languages>
+	</administration>
+</install>

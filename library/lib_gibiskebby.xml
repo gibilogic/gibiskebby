@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="library" version="1.5" method="upgrade">
+	<name>GiBi Skebby</name>
+	<libraryname>gibiskebby</libraryname>
+	<version>1.0.0</version>
+	<creationDate>2013-06-25</creationDate>
+	<author>GiBiLogic</author>
+	<authorUrl>http://www.gibilogic.com</authorUrl>
+	<authorEmail>info@gibilogic.com</authorEmail>
+	<copyright>(C) 2013 GiBiLogic snc. All rights reserved.</copyright>
+	<license>GNU/GPL v2 or later</license>
+	<description><![CDATA[
+		<img src="http://extensions.gibilogic.com/images/gibilogicextensions-150x150.png" alt="" style="float: left;margin: 0 10px 10px 0" />
+		<h1>GiBi Skebby</h1>
+		<h2>A Joomla extension by <a href="http://www.gibilogic.com">GiBiLogic</a></h2>
+		<p>Discover other extensions by <strong>GiBiLogic</strong> at <a href="http://extensions.gibilogic.com">extensions.gibilogic.com</a></p>
+	]]></description>
+
+	<files folder="gibiskebby">
+		<file>gibiskebby.php</file>
+	</files>
+</extension>
